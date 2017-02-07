@@ -600,18 +600,6 @@ class FileWriter(object):
         """
         self.container = pickle.load(file_address)
 
-'''
-new = FileReader("EMFIT_2017-01-05/device-3521-presence-2017-01-05--22.12-07.45-vitals.csv", sensor="hr", date_format="auto")
-new.read_file()
-w = FileWriter(new.container)
-#x = w.get_aggregated_values(w.container["Value Strip"], datetime.datetime(2017, 1, 6, 1, 0),
-#                            datetime.datetime(2017, 1, 6, 3, 0), resolution="minute")
-#y = w.get_raw_values(w.container["Value Strip"], datetime.datetime(2017, 1, 6, 0, 0), datetime.datetime(2017, 1, 6, 7, 0))
-#w.write_csv("test", datetime.datetime(2017, 1, 6, 0, 0), datetime.datetime(2017, 1, 6, 7, 0), "Value Strip")
-print(w.write("test.csv", "2017:1:5:0:0", "2017:1:6:6:0", "hr", resolution="minute", output_format="json"))
-#print(new.container["Value Strip"].children)
-'''
-
 
 
 
