@@ -84,7 +84,7 @@ def cli(argv):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         cli(sys.argv[1:])
-        print("\n" + str(settings))
+        print("\nSettings:\n%s\n" % str(settings))
         parser = ParseController(settings)
         parser.main()
 
