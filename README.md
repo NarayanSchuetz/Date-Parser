@@ -4,5 +4,5 @@ Little Parser written in python, able to parse csv files with timestamps and num
 <strong>Usage:</strong>
 
 CLI: 
-python main.py -i <inputfile> -o <outputfile> -c<colname> (--**kwargs) -h
+python main.py -i inputfile -o outputfile -c colname (--**kwargs) -h
 
