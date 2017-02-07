@@ -25,7 +25,6 @@ class ParseController(object):
         self.settings = settings
         self.file_reader = None
         self.file_writer = None
-        self.main()
 
     def __str__(self):
         return str(settings)
